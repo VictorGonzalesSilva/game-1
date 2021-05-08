@@ -24,7 +24,6 @@ ul {
 
 }
 section {
-    font-size: 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -58,9 +57,12 @@ li {
 
 }
 .img-section{
-    width: 500px;
-
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
 @media (max-width: 599px)
 {
     body {
@@ -100,7 +102,7 @@ li {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        font-size: 15px; 
+        font-size: 15px;
         margin-left: 25px;
         margin-right: 25px;
         width: 300px;
@@ -108,7 +110,7 @@ li {
     }
     
     img {
-        width: 150px;
+        width: 250px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -124,9 +126,10 @@ li {
     
     }
     .img-section{
-        width: 250px;
-        height: 150px;
+        width: 200px;
+        height: 250px;
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 }
