@@ -68,7 +68,7 @@ li {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 1253px;
+        width: 600px;
         text-align: center;
         
     }
@@ -99,21 +99,21 @@ li {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        font-size: 20px;
-        width: 500px;
+        font-size: 10px;
+        width: 250px;
     
     }
     
     img {
-        width: 300px;
+        width: 150px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     
     li {
-        padding: 8px 19px;
+        padding: 4px 14px;
         background: #9466ff;
         color: aliceblue;
         border-radius: 5px;
@@ -121,7 +121,7 @@ li {
     
     }
     .img-section{
-        width: 500px;
-        height: 350px;
+        width: 250px;
+        height: 150px;
     }
 }
