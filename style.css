@@ -80,7 +80,7 @@ li {
     
     ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         list-style: none;
         justify-content: center;
         align-items: center;
@@ -99,7 +99,7 @@ li {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        font-size: 10px;
+        font-size: 25px;
         width: 250px;
     
     }
