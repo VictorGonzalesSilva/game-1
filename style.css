@@ -58,9 +58,9 @@ li {
 }
 .img-section{
     width: 500px;
-    height: 250px;
+
 }
-@media (max-width: 600px)
+@media (max-width: 599px)
 {
     body {
         background: #4582dd;
@@ -99,8 +99,10 @@ li {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        font-size: 25px;
-        width: 250px;
+        font-size: 15px;
+        margin-left: 50px;
+        margin-right: 20px;
+        width: 300px;
     
     }
     
@@ -117,11 +119,13 @@ li {
         background: #9466ff;
         color: aliceblue;
         border-radius: 5px;
-        margin: 7px;
+        margin: 25px;
     
     }
     .img-section{
         width: 250px;
         height: 150px;
+        display: flex;
+        justify-content: center;
     }
 }
